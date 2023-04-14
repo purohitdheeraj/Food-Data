@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.food-item {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.userform {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.userform button {
+  grid-column: 1/-1;
+  width: 14rem;
+  justify-self: center;
+}
